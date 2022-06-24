@@ -1,3 +1,8 @@
+# found this script here:
+# https://stackoverflow.com/questions/23556330/run-nvm-use-automatically-every-time-theres-a-nvmrc-file-on-the-directory
+# https://github.com/nvm-sh/nvm#zsh
+# below is a slightly modified version
+
 # add the following below nvm initialization in ~/.zshrc
 autoload -U add-zsh-hook
 load-nvmrc() {
